@@ -1,6 +1,6 @@
-# React & Redux Truffle Box
+# React, Redux & Bootstrap Truffle Box
 
-This box comes with everything you need to start using smart contracts from a react redux app. 
+This box comes with everything you need to start using smart contracts from a react redux app with bootstrap 4. 
 
 ## Installation
 
@@ -8,13 +8,13 @@ First ensure you are in a new and empty directory.
 
 1. Run the `unbox` command via `npx` and skip to step 3. This will install all necessary dependencies. A Create-React-App is generated in the `client` directory.
    ```js
-   npx truffle unbox react
+   npx truffle unbox alexroan/react-redux-bootstrap-box
    ```
 
 2. Alternatively, you can install Truffle globally and run the `unbox` command.
     ```javascript
     npm install -g truffle
-    truffle unbox react
+    truffle unbox alexroan/react-redux-bootstrap-box
     ```
 
 3. Run the development console.
@@ -60,7 +60,7 @@ First ensure you are in a new and empty directory.
 
 * __How do I use this with the Ganache-CLI?__
 
-    It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using, you'll also need to update line 29 of `client/src/utils/getWeb3.js`.
+    It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using, you'll also need to update line 27 of `client/src/utils/getWeb3.js`.
 
 * __Where is my production build?__
 
